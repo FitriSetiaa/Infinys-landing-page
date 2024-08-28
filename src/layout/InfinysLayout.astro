@@ -1,0 +1,25 @@
+---
+import '../styles/global.css';
+import Navigation from '../components/Navigation.jsx';
+import InfinysPage1 from '../components/InfinysPage1.jsx';
+import InfinysPage2 from '../components/InfinysPage2';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Landing Page</title> <!-- title-seo-page-1 -->
+
+</head>
+<body>
+  <div class="konten">
+  <div class="nav">
+    <Navigation/>
+  </div>
+  <InfinysPage1 client:load/>
+  <InfinysPage2 client:load/>
+</div>
+</body>
+</html>

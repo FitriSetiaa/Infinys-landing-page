@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(252, 252, 252);
+}
+
+.nav{
+    position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+.konten {
+    padding-top: 71px; /* Sesuaikan dengan tinggi Navigation */
+}
+
+/* style-pg-1 */
+.button-color {
+background-color: rgb(31, 108, 224) 
+}
+
+.bg-image-left{
+   background: linear-gradient(to top, rgb(31, 108, 224) 50%, rgba(31, 108, 224, 0))
+}
+.bg-image-right{
+    background: linear-gradient(to top, rgb(254, 209, 11) 50%, rgba(254, 209, 11, 0));
+}
+
+/* Jika Anda ingin tambahan kustomisasi */
+
+/* style-pg-2 */
+.bg-custom-gradient {
+    background: linear-gradient(to left top, rgb(31, 108, 224) 50%, rgb(6, 182, 212));
+}
+
