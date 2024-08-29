@@ -39,3 +39,26 @@ background-color: rgb(31, 108, 224)
     background: linear-gradient(to left top, rgb(31, 108, 224) 50%, rgb(6, 182, 212));
 }
 
+/* Slide mainHeader */
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .slide.previous {
+    transform: translateX(-100%);
+  }
+  
+  
+

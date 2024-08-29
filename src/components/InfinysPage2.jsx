@@ -49,8 +49,8 @@ const InfinysPage2 = () => {
                                             ${advantage.id === 6 ? 'bg-custom-gradient'
                                             : advantage.id === 7 ? 'bg-gray-100'
                                             : advantage.id === 8 ? 'bg-gray-100' 
-                                            : advantage.id === 9 ? 'bg-gray-100 w-[725px] '
-                                            : advantage.id === 10 ? 'bg-gray-100 w-[500px] ml-80'
+                                            : advantage.id === 9 ? 'bg-gray-100 w-[725px] h-[400px]'
+                                            : advantage.id === 10 ? 'bg-gray-100 w-[500px] h-[400px] ml-80'
                                             : 'bg-white'
                                             }`}
                                     >
