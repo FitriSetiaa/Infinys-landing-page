@@ -128,6 +128,7 @@ const InfinysPage2 = () => {
           </div>
         )}
 
+
         {kanban1 && (
           <div className="xl:col-span-4">
             <div className="border bg-card text-card-foreground shadow-sm gradient-primary h-[500px] overflow-hidden rounded-3xl">
