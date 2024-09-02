@@ -62,7 +62,7 @@ const InfinysPage1 = () => {
           )}
           {/* Bagian yang di-styling */}
           <div key={header.id} className="flex flex-col items-center mt-10">
-            <p className="mx-auto max-w-[60rem] text-center text-4xl font-black tracking-tight lg:text-5xl lg:leading-tight mt-8">
+            <p className="mx-auto max-w-[60rem] text-center text-4xl font-black tracking-tight lg:text-5xl lg:leading-tight">
               {header.title}
             </p>
             <p className="text-custom-deskripsi mx-auto mt-6 max-w-[64rem] text-lg leading-8 text-muted-foreground text-center mb-4">
@@ -162,11 +162,12 @@ const InfinysPage1 = () => {
           <div className="absolute -z-10 h-[69%] w-[92%] mt-20 ml-14 mb-0 rounded-[50px]  bg-gray-100"></div>
           {/* Bagian mitra */}
           {mitra && (
-            <div className="mt-60 text-center relative z-10 py-12">
-              <h3 className="text-2xl font-semibold tracking-tight">
+            <div className="py-12">
+              <div className="mt-60 text-center relative z-10 py-12">
+              <h3 className="text-2xl font-semibold tracking-tigh">
                 {mitra.title}
               </h3>
-              <div className="mx-auto mt-6 flex max-w-[52rem] items-center justify-center gap-4 ">
+              <div className="mx-auto mt-6 flex max-w-[52rem] items-center justify-center gap-4">
                 {mitra.logoImage?.data?.map((logo) => (
                   <img
                     key={logo.id}
@@ -177,6 +178,7 @@ const InfinysPage1 = () => {
                 ))}
               </div>
             </div>
+          </div>
           )}
         </div>
       ))}
